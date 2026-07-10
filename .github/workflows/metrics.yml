@@ -1,0 +1,67 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs once a day at midnight UTC
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Card 1: avatar, bio, follower/star/repo counts, recent activity
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.about.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity
+          config_order: header, activity
+
+      # Card 2: most used languages bar
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_analysis_timeout: 15
+
+      # Card 3: commit habits (time of day / day of week)
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+      # Card 4: isometric contribution calendar
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # Card 5: your achievements badges
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+
+      # Card 6: one featured repository (edit the repo name below)
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.repo.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          config_order: repositories
+          repositories: "erfannaderi0/pneumonia_detection"
