@@ -1,16 +1,74 @@
-## Hi there 👋
+<h1 align="center">Erfan Naderi</h1>
 
-<!--
-**erfannaderi0/erfannaderi0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <strong>Machine Learning • Deep Learning • Computer Vision</strong>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  Learning by building real-world AI systems.
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="./metrics.svg" width="100%" alt="GitHub Metrics">
+</p>
+
+---
+
+## 🚀 Featured Project
+
+### Pneumonia Detection from Chest X-Rays
+
+A complete deep learning pipeline built with PyTorch, including:
+
+- Transfer Learning (ResNet152)
+- Custom CNN baseline
+- Threshold optimization
+- Grad-CAM explainability
+- Calibration analysis
+- Experiment tracking
+- Streamlit deployment
+- Hugging Face model hosting
+
+**Repository**
+
+https://github.com/erfannaderi0/pneumonia_detection
+
+---
+
+## 🛠 Tech Stack
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,opencv,git,github,vscode,linux" />
+
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+
+<img
+height="170"
+src="https://github-readme-stats.vercel.app/api?username=erfannaderi0&show_icons=true&hide_border=true"/>
+
+<img
+height="170"
+src="https://github-readme-streak-stats.herokuapp.com/?user=erfannaderi0&hide_border=true"/>
+
+</p>
+
+---
+
+## 📫 Contact
+
+- GitHub: https://github.com/erfannaderi0
+- Hugging Face: https://huggingface.co/erfanna
+- LinkedIn: https://www.linkedin.com/in/erfan-naderi-748875273
+
+---
+
+<p align="center">
+<i>Always building the next project.</i>
+</p>
