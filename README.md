@@ -6,20 +6,17 @@
   Learning by building real-world AI systems.
 </p>
 
-<table>
-<tr>
-<td width="50%"><img src="./metrics.about.svg" width="100%"></td>
-<td width="50%"><img src="./metrics.languages.svg" width="100%"></td>
-</tr>
-<tr>
-<td width="50%"><img src="./metrics.habits.svg" width="100%"></td>
-<td width="50%"><img src="./metrics.calendar.svg" width="100%"></td>
-</tr>
-<tr>
-<td width="50%"><img src="./metrics.repo.svg" width="100%"></td>
-<td width="50%"><img src="./metrics.achievements.svg" width="100%"></td>
-</tr>
-</table>
+<p align="center">
+  <img src="./metrics.about.svg" width="49%">
+  <img src="./metrics.languages.svg" width="49%">
+</p>
+<p align="center">
+  <img src="./metrics.habits.svg" width="49%">
+  <img src="./metrics.calendar.svg" width="49%">
+</p>
+<p align="center">
+  <img src="./metrics.repo.svg" width="100%">
+</p>
 
 ---
 
