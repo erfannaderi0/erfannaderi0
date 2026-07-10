@@ -1,16 +1,25 @@
 <h1 align="center">Erfan Naderi</h1>
-
 <p align="center">
   <strong>Machine Learning • Deep Learning • Computer Vision</strong>
 </p>
-
 <p align="center">
   Learning by building real-world AI systems.
 </p>
 
-<p align="center">
-  <img src="./metrics.svg" width="100%" alt="GitHub Metrics">
-</p>
+<table>
+<tr>
+<td width="50%"><img src="./metrics.about.svg" width="100%"></td>
+<td width="50%"><img src="./metrics.languages.svg" width="100%"></td>
+</tr>
+<tr>
+<td width="50%"><img src="./metrics.habits.svg" width="100%"></td>
+<td width="50%"><img src="./metrics.calendar.svg" width="100%"></td>
+</tr>
+<tr>
+<td width="50%"><img src="./metrics.repo.svg" width="100%"></td>
+<td width="50%"><img src="./metrics.achievements.svg" width="100%"></td>
+</tr>
+</table>
 
 ---
 
@@ -30,7 +39,6 @@ A complete deep learning pipeline built with PyTorch, including:
 - Hugging Face model hosting
 
 **Repository**
-
 https://github.com/erfannaderi0/pneumonia_detection
 
 ---
@@ -38,9 +46,7 @@ https://github.com/erfannaderi0/pneumonia_detection
 ## 🛠 Tech Stack
 
 <p>
-
 <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,opencv,git,github,vscode,linux" />
-
 </p>
 
 ---
@@ -48,15 +54,12 @@ https://github.com/erfannaderi0/pneumonia_detection
 ## 📊 GitHub Stats
 
 <p align="center">
-
 <img
 height="170"
 src="https://github-readme-stats.vercel.app/api?username=erfannaderi0&show_icons=true&hide_border=true"/>
-
 <img
 height="170"
-src="https://github-readme-streak-stats.herokuapp.com/?user=erfannaderi0&hide_border=true"/>
-
+src="https://streak-stats.demolab.com/?user=erfannaderi0&hide_border=true"/>
 </p>
 
 ---
