@@ -18,7 +18,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity
           config_order: header, activity
-          config_display: large
 
       # Card 2: most used languages bar
       - uses: lowlighter/metrics@latest
@@ -29,7 +28,6 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 6
           plugin_languages_analysis_timeout: 15
-          config_display: large
 
       # Card 3: isometric contribution calendar
       - uses: lowlighter/metrics@latest
@@ -39,7 +37,6 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          config_display: large
 
       # Card 4: one featured repository
       - uses: lowlighter/metrics@latest
@@ -49,7 +46,6 @@ jobs:
           base: ""
           config_order: repositories
           repositories: "erfannaderi0/pneumonia_detection"
-          config_display: large
 
       # ---------------------------------------------------------------
       # Temporarily disabled - both plugins currently crash on metrics
