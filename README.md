@@ -7,14 +7,16 @@
 </p>
 
 <p align="center">
-  <img src="./metrics.about.svg" width="100%">
+  <img src="./metrics.about.svg" width="800">
 </p>
 <p align="center">
-  <img src="./metrics.languages.svg" width="49%">
-  <img src="./metrics.calendar.svg" width="49%">
+  <img src="./metrics.languages.svg" width="800">
 </p>
 <p align="center">
-  <img src="./metrics.repo.svg" width="100%">
+  <img src="./metrics.calendar.svg" width="800">
+</p>
+<p align="center">
+  <img src="./metrics.repo.svg" width="800">
 </p>
 
 ---
