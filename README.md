@@ -1,3 +1,8 @@
+[![metrics](./metrics.about.svg)](#) [![metrics](./metrics.languages.svg)](#)
+
+[![metrics](./metrics.calendar.svg)](#) [![metrics](./metrics.repo.svg)](#)
+
+---
 <h1 align="center">Erfan Naderi</h1>
 <p align="center">
   <strong>Machine Learning • Deep Learning • Computer Vision</strong>
@@ -5,21 +10,6 @@
 <p align="center">
   Learning by building real-world AI systems.
 </p>
-
-<p align="center">
-  <img src="./metrics.about.svg" width="800">
-</p>
-<p align="center">
-  <img src="./metrics.languages.svg" width="800">
-</p>
-<p align="center">
-  <img src="./metrics.calendar.svg" width="800">
-</p>
-<p align="center">
-  <img src="./metrics.repo.svg" width="800">
-</p>
-
----
 
 ## 🚀 Featured Project
 
