@@ -7,11 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="./metrics.about.svg" width="49%">
-  <img src="./metrics.languages.svg" width="49%">
+  <img src="./metrics.about.svg" width="100%">
 </p>
 <p align="center">
-  <img src="./metrics.habits.svg" width="49%">
+  <img src="./metrics.languages.svg" width="49%">
   <img src="./metrics.calendar.svg" width="49%">
 </p>
 <p align="center">
